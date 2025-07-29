@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		593B03882E387AD800759767 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 593B03872E387AD800759767 /* FirebaseDatabase */; };
+		593B038A2E387AD800759767 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 593B03892E387AD800759767 /* FirebaseDatabaseSwift */; };
+		593B038C2E387AD800759767 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 593B038B2E387AD800759767 /* FirebaseFirestore */; };
+		593B038E2E387AD800759767 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 593B038D2E387AD800759767 /* FirebaseFirestoreSwift */; };
+		593B03902E387AD800759767 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 593B038F2E387AD800759767 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		593B036A2E387A0D00759767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 593B03542E387A0C00759767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593B035B2E387A0C00759767;
+			remoteInfo = DigiPostCard;
+		};
+		593B03742E387A0D00759767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 593B03542E387A0C00759767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593B035B2E387A0C00759767;
+			remoteInfo = DigiPostCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		593B035C2E387A0C00759767 /* DigiPostCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigiPostCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		593B03692E387A0D00759767 /* DigiPostCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigiPostCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		593B03732E387A0D00759767 /* DigiPostCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigiPostCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		593B035E2E387A0C00759767 /* DigiPostCard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DigiPostCard;
+			sourceTree = "<group>";
+		};
+		593B036C2E387A0D00759767 /* DigiPostCardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DigiPostCardTests;
+			sourceTree = "<group>";
+		};
+		593B03762E387A0D00759767 /* DigiPostCardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DigiPostCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		593B03592E387A0C00759767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593B038A2E387AD800759767 /* FirebaseDatabaseSwift in Frameworks */,
+				593B03882E387AD800759767 /* FirebaseDatabase in Frameworks */,
+				593B038C2E387AD800759767 /* FirebaseFirestore in Frameworks */,
+				593B03902E387AD800759767 /* FirebaseStorage in Frameworks */,
+				593B038E2E387AD800759767 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B03662E387A0D00759767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B03702E387A0D00759767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		593B03532E387A0C00759767 = {
+			isa = PBXGroup;
+			children = (
+				593B035E2E387A0C00759767 /* DigiPostCard */,
+				593B036C2E387A0D00759767 /* DigiPostCardTests */,
+				593B03762E387A0D00759767 /* DigiPostCardUITests */,
+				593B035D2E387A0C00759767 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		593B035D2E387A0C00759767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				593B035C2E387A0C00759767 /* DigiPostCard.app */,
+				593B03692E387A0D00759767 /* DigiPostCardTests.xctest */,
+				593B03732E387A0D00759767 /* DigiPostCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		593B035B2E387A0C00759767 /* DigiPostCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593B037D2E387A0D00759767 /* Build configuration list for PBXNativeTarget "DigiPostCard" */;
+			buildPhases = (
+				593B03582E387A0C00759767 /* Sources */,
+				593B03592E387A0C00759767 /* Frameworks */,
+				593B035A2E387A0C00759767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				593B035E2E387A0C00759767 /* DigiPostCard */,
+			);
+			name = DigiPostCard;
+			packageProductDependencies = (
+				593B03872E387AD800759767 /* FirebaseDatabase */,
+				593B03892E387AD800759767 /* FirebaseDatabaseSwift */,
+				593B038B2E387AD800759767 /* FirebaseFirestore */,
+				593B038D2E387AD800759767 /* FirebaseFirestoreSwift */,
+				593B038F2E387AD800759767 /* FirebaseStorage */,
+			);
+			productName = DigiPostCard;
+			productReference = 593B035C2E387A0C00759767 /* DigiPostCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		593B03682E387A0D00759767 /* DigiPostCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593B03802E387A0D00759767 /* Build configuration list for PBXNativeTarget "DigiPostCardTests" */;
+			buildPhases = (
+				593B03652E387A0D00759767 /* Sources */,
+				593B03662E387A0D00759767 /* Frameworks */,
+				593B03672E387A0D00759767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593B036B2E387A0D00759767 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				593B036C2E387A0D00759767 /* DigiPostCardTests */,
+			);
+			name = DigiPostCardTests;
+			packageProductDependencies = (
+			);
+			productName = DigiPostCardTests;
+			productReference = 593B03692E387A0D00759767 /* DigiPostCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		593B03722E387A0D00759767 /* DigiPostCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593B03832E387A0D00759767 /* Build configuration list for PBXNativeTarget "DigiPostCardUITests" */;
+			buildPhases = (
+				593B036F2E387A0D00759767 /* Sources */,
+				593B03702E387A0D00759767 /* Frameworks */,
+				593B03712E387A0D00759767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593B03752E387A0D00759767 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				593B03762E387A0D00759767 /* DigiPostCardUITests */,
+			);
+			name = DigiPostCardUITests;
+			packageProductDependencies = (
+			);
+			productName = DigiPostCardUITests;
+			productReference = 593B03732E387A0D00759767 /* DigiPostCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		593B03542E387A0C00759767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					593B035B2E387A0C00759767 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					593B03682E387A0D00759767 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 593B035B2E387A0C00759767;
+					};
+					593B03722E387A0D00759767 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 593B035B2E387A0C00759767;
+					};
+				};
+			};
+			buildConfigurationList = 593B03572E387A0C00759767 /* Build configuration list for PBXProject "DigiPostCard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 593B03532E387A0C00759767;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				593B03862E387AD800759767 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 593B035D2E387A0C00759767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				593B035B2E387A0C00759767 /* DigiPostCard */,
+				593B03682E387A0D00759767 /* DigiPostCardTests */,
+				593B03722E387A0D00759767 /* DigiPostCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		593B035A2E387A0C00759767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B03672E387A0D00759767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B03712E387A0D00759767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		593B03582E387A0C00759767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B03652E387A0D00759767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593B036F2E387A0D00759767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		593B036B2E387A0D00759767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 593B035B2E387A0C00759767 /* DigiPostCard */;
+			targetProxy = 593B036A2E387A0D00759767 /* PBXContainerItemProxy */;
+		};
+		593B03752E387A0D00759767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 593B035B2E387A0C00759767 /* DigiPostCard */;
+			targetProxy = 593B03742E387A0D00759767 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		593B037B2E387A0D00759767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		593B037C2E387A0D00759767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		593B037E2E387A0D00759767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royan.myiosapps.DigiPostCard.DigiPostCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		593B037F2E387A0D00759767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royan.myiosapps.DigiPostCard.DigiPostCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		593B03812E387A0D00759767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royan.myiosapps.DigiPostCard.DigiPostCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigiPostCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigiPostCard";
+			};
+			name = Debug;
+		};
+		593B03822E387A0D00759767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royan.myiosapps.DigiPostCard.DigiPostCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigiPostCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigiPostCard";
+			};
+			name = Release;
+		};
+		593B03842E387A0D00759767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royan.myiosapps.DigiPostCard.DigiPostCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigiPostCard;
+			};
+			name = Debug;
+		};
+		593B03852E387A0D00759767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.royan.myiosapps.DigiPostCard.DigiPostCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigiPostCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		593B03572E387A0C00759767 /* Build configuration list for PBXProject "DigiPostCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593B037B2E387A0D00759767 /* Debug */,
+				593B037C2E387A0D00759767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593B037D2E387A0D00759767 /* Build configuration list for PBXNativeTarget "DigiPostCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593B037E2E387A0D00759767 /* Debug */,
+				593B037F2E387A0D00759767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593B03802E387A0D00759767 /* Build configuration list for PBXNativeTarget "DigiPostCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593B03812E387A0D00759767 /* Debug */,
+				593B03822E387A0D00759767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593B03832E387A0D00759767 /* Build configuration list for PBXNativeTarget "DigiPostCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593B03842E387A0D00759767 /* Debug */,
+				593B03852E387A0D00759767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		593B03862E387AD800759767 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		593B03872E387AD800759767 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 593B03862E387AD800759767 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		593B03892E387AD800759767 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 593B03862E387AD800759767 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		593B038B2E387AD800759767 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 593B03862E387AD800759767 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		593B038D2E387AD800759767 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 593B03862E387AD800759767 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		593B038F2E387AD800759767 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 593B03862E387AD800759767 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 593B03542E387A0C00759767 /* Project object */;
+}
